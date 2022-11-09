@@ -15,11 +15,3 @@
   <img width="30%" alt="Projeto Mobile" src="../preview/Screen.png" />
   <img width="30%" alt="Design do Projeto Mobile" src="../preview/bolão.png"  align="right"/>
 <p>
-
----
-
-### Clonar repositorio 
-    
-    $ git clone https://github.com/Luuan11/nlw-copa.git
-
-
