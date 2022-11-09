@@ -1,4 +1,5 @@
-## 🚀 Como executar
+## ✔️ Como executar
+>Instruções Rockeatseat
 
 **Para que esse projeto funcione corretamente, é preciso estar com o servidor rodando.**
 
@@ -7,3 +8,11 @@
 - Faça uma copia do arquivo `.env.example` para `.env` e preencha corretamente.
 - Alterar o endereço do arquivo `src/services/api.ts` colocando o IP da máquina.
 - Execute `npm run dev` para iniciar o servidor do Expo.
+
+
+
+### Clonar repositorio 
+    
+    $ git clone https://github.com/Luuan11/nlw-copa.git
+
+
