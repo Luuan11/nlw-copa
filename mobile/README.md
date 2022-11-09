@@ -9,7 +9,14 @@
 - Alterar o endereço do arquivo `src/services/api.ts` colocando o IP da máquina.
 - Execute `npm run dev` para iniciar o servidor do Expo.
 
+---
 
+<p>
+  <img width="30%" alt="Projeto Mobile" src="../preview/Screen.png" />
+  <img width="30%" alt="Design do Projeto Mobile" src="../preview/bolão.png"  align="right"/>
+<p>
+
+---
 
 ### Clonar repositorio 
     
