@@ -17,7 +17,7 @@ Aplicação mobile para participar da Copa do Mundo 2022. Com criações de bol�
 
 <p>
   <img width="45%" alt="Projeto Mobile" src="./preview/Screen.png" />
-  <img width="45%" alt="Design do Projeto src="./preview/bolão.png" Mobile" align="right"/>
+  <img width="45%" alt="Design do Projeto Mobile" src="./preview/bolão.png"  align="right"/>
 <p>
 
 ## ✨ Tecnologias
