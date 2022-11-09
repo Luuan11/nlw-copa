@@ -6,13 +6,12 @@
 
 <p align="center">
   <img src="https://img.shields.io/static/v1?label=NLW&message=10&color=F7DD43&labelColor=202024" alt="NLW 10 - Copa" />
-  <a href="LICENSE"><img  src="https://img.shields.io/static/v1?label=License&message=MIT&color=F7DD43&labelColor=202024" alt="License"></a>
 </p>
 
 ## 📱 Projeto
 
 Aplicação mobile para participar da Copa do Mundo 2022. Com criações de bolões e palpites.
->Trilha ignite da 10 Edição
+>Trilha ignite da 10 Edição do Next Week Level
 
 ## ✨ Tecnologias
 
@@ -31,6 +30,8 @@ Aplicação mobile para participar da Copa do Mundo 2022. Com criações de bol�
 - Typescript
 - OAuth
 - JWT
+
+### 🎉 Para executar segue a documentação atráves de cada pasta.
 
 ---
 Made with 💜 by [Luan Fernando](https://www.linkedin.com/in/luan-fernando/).
