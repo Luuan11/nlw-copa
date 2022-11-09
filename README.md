@@ -40,6 +40,11 @@ Aplicação mobile para participar da Copa do Mundo 2022. Com criações de bol�
 
 ### 🎉 Para executar segue a documentação atráves de cada pasta.
 
+
+### 💡 Clonar repositorio 
+    
+    $ git clone https://github.com/Luuan11/nlw-copa.git
+
 ---
 Made with 💜 by [Luan Fernando](https://www.linkedin.com/in/luan-fernando/).
 
