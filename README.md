@@ -13,6 +13,14 @@
 Aplicação mobile para participar da Copa do Mundo 2022. Com criações de bolões e palpites.
 >Trilha ignite da 10 Edição do Next Week Level
 
+<img align="center" alt="Design do Projeto Web" src="./preview/Web.png" />
+
+<p>
+  <img width="45%" alt="Projeto Mobile" src="./preview/Screen.png" />
+
+ <img width="45%" align="right" alt="Design do Projeto Mobile" src="./preview/bolão.png" />
+<p>
+
 ## ✨ Tecnologias
 
 ### Front-End
