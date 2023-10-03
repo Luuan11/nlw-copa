@@ -18,7 +18,7 @@
     "country-list": "^2.2.0",
     "dayjs": "^1.11.6",
     "expo": "~49.0.8",
-    "expo-auth-session": "~3.7.1",
+    "expo-auth-session": "~5.2.0",
     "expo-font": "~10.2.0",
     "expo-random": "~12.3.0",
     "expo-status-bar": "~1.4.0",
