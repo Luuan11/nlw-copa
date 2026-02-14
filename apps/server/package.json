@@ -1,0 +1,38 @@
+{
+  "name": "@nlw-copa/server",
+  "version": "1.0.0",
+  "description": "NLW Copa - API Server",
+  "main": "dist/server.js",
+  "scripts": {
+    "dev": "tsx watch src/server.ts",
+    "build": "tsc",
+    "start": "node dist/server.js",
+    "lint": "eslint src --ext .ts",
+    "clean": "rm -rf dist",
+    "db:migrate": "prisma migrate dev",
+    "db:studio": "prisma studio",
+    "db:generate": "prisma generate",
+    "db:seed": "tsx prisma/seed.ts"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "devDependencies": {
+    "@mermaid-js/mermaid-cli": "^10.9.1",
+    "@nlw-copa/eslint-config": "*",
+    "@nlw-copa/typescript-config": "*",
+    "eslint": "^9.21.0",
+    "prisma": "^5.22.0",
+    "tsx": "^4.19.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@fastify/cors": "^8.5.0",
+    "@fastify/jwt": "^8.0.1",
+    "@nlw-copa/shared": "*",
+    "@prisma/client": "^5.22.0",
+    "fastify": "^4.29.1",
+    "short-unique-id": "^5.3.2",
+    "zod": "^3.25.76"
+  }
+}

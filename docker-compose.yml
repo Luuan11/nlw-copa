@@ -1,0 +1,55 @@
+version: '3.8'
+
+services:
+  # Backend API
+  server:
+    build:
+      context: .
+      dockerfile: apps/server/Dockerfile
+    container_name: nlw-copa-server
+    ports:
+      - "3333:3333"
+    environment:
+      - NODE_ENV=development
+      - DATABASE_URL=file:./dev.db
+      - JWT_SECRET=sua-chave-secreta-aqui
+    volumes:
+      - ./apps/server:/app/apps/server
+      - ./packages:/app/packages
+      - /app/node_modules
+      - /app/apps/server/node_modules
+    command: npm run dev --workspace=server
+    networks:
+      - nlw-copa-network
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3333/health"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+
+  # Frontend Web (Next.js)
+  web:
+    build:
+      context: .
+      dockerfile: apps/web/Dockerfile
+    container_name: nlw-copa-web
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=development
+      - NEXT_PUBLIC_API_URL=http://localhost:3333
+    volumes:
+      - ./apps/web:/app/apps/web
+      - ./packages:/app/packages
+      - /app/node_modules
+      - /app/apps/web/node_modules
+      - /app/apps/web/.next
+    command: npm run dev --workspace=web
+    depends_on:
+      - server
+    networks:
+      - nlw-copa-network
+
+networks:
+  nlw-copa-network:
+    driver: bridge
