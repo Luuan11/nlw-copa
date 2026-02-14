@@ -32,7 +32,7 @@ export async function gameRoutes(fastify: FastifyInstance) {
     });
 
     return {
-      games: games.map(game => ({
+      games: games.map((game: any) => ({
         ...game,
         guess: game.guesses[0] ?? null,
         guesses: undefined,

@@ -1,4 +1,3 @@
-import { z } from 'zod';
 import { FastifyInstance } from 'fastify';
 import { prisma } from '../lib/prisma';
 import { authenticate } from '../plugins/authenticate';

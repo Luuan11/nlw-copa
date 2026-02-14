@@ -8,5 +8,9 @@
   ],
   "exclude": [
     "node_modules"
-  ]
+  ],
+  "compilerOptions": {
+    "allowJs": true,
+    "noEmit": true
+  }
 }
